@@ -1,0 +1,11 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.row {
+  margin: 20px 5%;
+}
+
+li.item {
+  margin: 5px;
+}

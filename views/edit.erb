@@ -1,0 +1,9 @@
+<fieldset>
+  <legend>Update Item Name</legend>
+  <form action="/groceries/<%= @id %>" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="<%= @name %>"/>
+    <input type="hidden" name="_method" value="PATCH">
+    <input type="submit" value="Update" />
+  </form>
+</fieldset>

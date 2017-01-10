@@ -1,0 +1,11 @@
+<h1><%= @name %>:</h1>
+
+<ul>
+  <% if @comments.size > 0 %>
+    <% @comments.each do |item| %>
+      <li class="item">
+        <%= item["body"] %>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
